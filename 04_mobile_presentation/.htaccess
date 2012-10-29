@@ -1,0 +1,9 @@
+<FilesMatch ".(html?|gif|png|jpg|jpeg|ico)$">
+Header set Expires "Thu, 15 Apr 2040 20:00:00 GMT"
+#max-age is set in seconds
+Header set Cache-Control "max-age=2678400, must-revalidate, proxy-revalidate"
+FileETag MTime Size 
+</FilesMatch>
+
+ExpiresByType image/jpeg "access plus 1 year"
+ExpiresByType image/png "access plus 1 year"

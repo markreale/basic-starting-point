@@ -1,0 +1,11 @@
+body {
+  /* Colors can be represented in many ways */
+  /* by name */
+  background: lightblue;
+  /* by hex code */
+  background: #ADD8E6;
+  /* by rgb value */
+  background: rgb(173,216,230);
+  /* by rgb value with alpha transparency */
+  background: rgba(173,216,230,0.7);
+}
